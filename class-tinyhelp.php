@@ -210,13 +210,13 @@ if ( ! class_exists( 'TinyHelp' ) ) {
 
 			return $inject;
 		}
-	}
 
-	protected function generate_dismiss_link() {
-		return array(
-			'type'  => 'dismiss',
-			'title' => __( 'Hide this suggestion', 'tinyhelp' ),
-			'link'  => '',
-		);
+		protected function generate_dismiss_link() {
+			return array(
+				'type'  => 'dismiss',
+				'title' => __( 'Hide this suggestion', 'tinyhelp' ),
+				'link'  => '',
+			);
+		}
 	}
 }
