@@ -6,7 +6,7 @@
 
 Since apparently it is now okay to inject suggestions into WordPress plugin search results on wp-admin, this little library will help you to do just that. All you have to do is to include it in your project, define some suggestions in an array and pass it to `TinyHelp` class. Here is how it looks:
 
-[Imgur](https://i.imgur.com/2wdnWy9.jpg)
+![Imgur](https://i.imgur.com/2wdnWy9.jpg)
 
 ## Usage
 
