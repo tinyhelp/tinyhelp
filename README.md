@@ -85,4 +85,8 @@ This library is open source and free for everyone to use. It is licensed under M
 
 ## Author
 
-This library was built by Arūnas Liuiza, based on concept, first introduced by Jetpack. Any contributions are welcome.
+This library was built by <a href="https://arunas.co">Arūnas Liuiza</a>, based on concept, first introduced by Jetpack. Any contributions are welcome.
+
+## Notice
+
+This is still a very fresh project. If you note any bugs, please report them and I'll try to fix them ASAP. I feel that the code is quite self explanatory, but I'll add more comments and documentation in the future, as well.
