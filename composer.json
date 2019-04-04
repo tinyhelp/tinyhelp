@@ -1,0 +1,15 @@
+{
+    "name": "tinyhelp/tinyhelp",
+	"version": "1.0.0",
+    "description": "A WordPress library to inject suggestions into plugin search results.",
+    "type": "wordpress-dropin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arūnas Liuiza",
+            "email": "ask@arunas.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
