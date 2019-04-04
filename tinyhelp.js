@@ -37,7 +37,7 @@ var tinyHelp = {};
 			mutationsList.forEach(function(mutation) {
 				if (
 					'childList' === mutation.type &&
-					1 === document.querySelectorAll('.plugin-card-tinyhelp').length
+					1 <= document.querySelectorAll('.plugin-card-tinyhelp').length
 				) {
 					tinyHelp.replaceCardBottom();
 				}
