@@ -1,0 +1,51 @@
+.plugin-card-tinyhelp .plugin-card-bottom {
+	display: none;
+}
+
+.plugin-card-tinyhelp .plugin-action-buttons {
+	white-space: nowrap;
+}
+
+.plugin-card-tinyhelp .plugin-action-buttons .button {
+	background: #00be28;
+	border-color: #00a523;
+	color: #fff;
+	box-shadow: 0 1px 0 #c5e2c3;
+}
+
+.plugin-card-tinyhelp .plugin-action-buttons .button:hover {
+	background: #00a523;
+	border-color: #008b1d;
+	color: #fff;
+}
+
+.plugin-card-tinyhelp .tinyhelp-plugin-card-bottom {
+	display: flex;
+	align-items: center;
+	align-content: space-between;
+	clear: both;
+	padding: 12px 20px;
+	background-color: #fafafa;
+	border-top: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.plugin-card-tinyhelp .tinyhelp-plugin-card-bottom p {
+	flex: 1;
+	margin: 0 24px 0 0;
+}
+
+.plugin-card-tinyhelp .plugin-action-buttons .tinyhelp-dismiss {
+	display: none;
+}
+
+.plugin-card-tinyhelp .tinyhelp-plugin-card-bottom .tinyhelp-dismiss {
+	color: #484848;
+	font-style: italic;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.plugin-card-tinyhelp .tinyhelp-plugin-card-bottom .tinyhelp-dismiss:hover {
+	color: #666;
+}
