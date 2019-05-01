@@ -19,7 +19,6 @@ if ( ! class_exists( 'TinyHelp' ) ) {
 			$this->args      = $args;
 			$this->modules   = $args['modules'];
 			$this->dismissed = get_option( "tinyhelp_{$this->slug}_dismissed", $this->dismissed );
-
 			add_action( 'current_screen', array( $this, 'start' ) );
 			add_action( 'rest_api_init', array( $this, 'api' ) );
 		}
@@ -194,7 +193,7 @@ if ( ! class_exists( 'TinyHelp' ) ) {
 			$inject                      = $this->modules[ $module ];
 			$defaults                    = array();
 			$defaults['tinyhelp']        = true;
-			$defaults['slug']            = 'tinyhelp';
+			$defaults['slug']            = $this->slug;
 			$defaults['plugin']          = $this->slug;
 			$defaults['module']          = $module;
 			$defaults['num_ratings']     = 0;
